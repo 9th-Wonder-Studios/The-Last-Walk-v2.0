@@ -23,23 +23,27 @@ PAL 0
 0,0,0
 255,154,18
 255,255,255
+240,208,137
+99,99,99
+189,189,189
+230,165,165
 NAME p1
 
 ROOM 0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+v,r,u,y,0,0,y,0,x,0,0,0,x,0,0,0
+w,s,t,0,0,x,0,0,0,0,y,0,0,0,y,0
+0,0,y,0,0,0,0,x,0,0,0,0,x,0,0,x
 e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-j,0,0,c,0,0,0,0,0,0,0,0,0,g,j,0
-i,0,0,d,0,0,0,0,0,0,0,0,0,h,i,0
-0,0,0,f,0,b,0,0,b,0,0,b,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+z,0,0,0,0,0,0,0,0,0,0,0,0,0,g,j
+j,0,c,0,z,b,0,0,b,0,0,b,z,0,h,i
+i,0,d,0,0,0,0,0,0,0,z,0,0,0,0,z
+0,z,f,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,m,l,k,k,l,k,k,k,l,k,k,l,k,k
 0,0,n,k,k,l,k,k,k,k,k,l,k,k,l,l
-0,g,j,0,0,0,0,0,0,0,0,0,0,c,0,0
+0,g,j,0,0,0,0,0,0,z,0,0,0,c,0,0
 0,h,i,0,0,0,0,0,0,0,0,0,0,d,0,0
-c,0,0,0,0,b,0,0,b,0,0,b,0,f,0,g
-d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,h
+c,0,0,0,0,b,0,0,b,0,0,b,0,f,z,g
+d,0,z,0,0,0,0,0,0,0,0,0,0,0,0,h
 f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
 NAME graveyard 1
@@ -49,72 +53,122 @@ PAL 0
 TUNE 3
 
 ROOM 1
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,x,0,0,y,0,0,0,x,0,0,0,0,y,0,0
+0,0,y,0,0,0,0,y,0,0,0,x,0,0,0,x
+0,0,0,0,x,0,0,0,0,y,0,0,0,0,0,0
 e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,d,0,0,b,0,0,b,0,0,b,0,0,b,0,0
-0,f,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,g,j
-l,k,k,k,k,l,k,k,k,l,k,p,0,0,h,i
-k,k,l,k,k,l,l,k,k,k,l,k,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,k,l,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,k,k,0,c,0,0
-0,0,b,0,0,b,0,0,0,0,l,k,0,d,0,0
-0,0,0,0,0,0,0,0,0,0,l,k,0,f,0,0
-0,0,0,0,0,0,0,0,0,0,k,k,0,0,0,0
+c,0,0,0,b,0,0,b,0,0,b,0,0,0,0,g
+d,z,0,0,0,0,0,0,0,0,0,z,0,0,0,h
+f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+l,k,k,k,k,l,k,k,k,l,k,k,k,k,l,l
+k,k,l,k,k,l,l,k,k,k,l,k,k,k,k,l
+0,0,0,0,0,0,0,g,j,0,k,l,0,0,0,0
+z,0,0,0,0,0,0,h,i,0,k,k,0,c,0,0
+j,0,b,0,0,b,0,0,0,0,l,k,0,d,0,0
+i,0,0,0,0,0,0,0,z,0,l,k,0,f,0,0
+0,0,0,0,0,0,0,0,0,0,k,k,0,0,0,z
 e,e,e,e,e,e,e,e,e,e,k,l,e,e,e,e
 NAME graveyard 2
 EXT 0,8 0 15,8
 EXT 0,9 0 15,9
 EXT 10,15 2 10,0
 EXT 11,15 2 11,0
+EXT 15,8 3 0,8
+EXT 15,9 3 0,9
 PAL 0
 TUNE 3
 
 ROOM 2
-0,0,0,0,0,0,0,0,0,0,k,k,0,0,0,0
-0,g,j,0,0,0,0,0,0,0,k,k,0,0,c,0
-0,h,i,0,0,0,0,0,0,0,k,k,0,0,d,0
-0,0,0,0,0,0,0,0,0,k,k,k,0,0,f,0
-0,0,0,0,0,0,0,0,k,k,k,k,0,0,0,0
-0,c,0,0,0,0,k,k,k,k,k,0,0,0,0,0
-0,d,0,0,0,k,k,k,k,k,0,0,0,0,0,0
-0,f,0,0,0,k,k,k,0,0,0,0,0,0,0,0
-0,0,0,0,0,k,k,0,0,0,0,0,0,0,0,0
-e,e,e,0,0,k,k,0,0,e,e,e,e,e,e,e
-0,0,0,0,0,k,k,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,k,k,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,l,k,0,0,0,0
+0,g,j,0,0,0,z,0,0,0,l,k,0,0,c,0
+0,h,i,0,0,0,0,0,0,0,k,l,0,0,d,0
+0,0,0,z,0,0,0,0,0,0,k,k,0,0,f,0
+0,0,0,0,0,m,k,k,k,l,k,l,0,z,0,0
+0,c,0,0,0,k,k,l,l,k,k,o,0,0,0,0
+0,d,0,0,0,l,k,0,0,0,0,0,0,0,0,0
+0,f,0,0,0,k,k,0,0,0,z,0,0,0,0,0
+0,0,z,0,0,l,k,0,0,0,0,0,0,0,0,z
+e,e,e,0,0,k,l,0,0,e,e,e,e,e,e,e
+0,0,0,0,0,l,k,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,n,o,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,12,13,11,12,13,11,12,13,11,12,13,11,12,13,11
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,10,10,10,0,0,0,10,10,0,0,0,10,10,10,0
 NAME graveyard 4
 EXT 10,0 1 10,15
 EXT 11,0 1 11,15
+END b 8,11
 PAL 0
 TUNE 3
 
 ROOM 3
+x,0,0,y,0,0,0,0,0,0,y,0,0,0,0,0
+0,0,x,0,0,x,0,y,0,0,0,0,y,0,0,x
+y,0,0,0,0,0,0,0,0,0,0,0,0,0,x,0
+e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
+0,0,0,0,0,z,0,0,0,0,0,0,0,0,0,0
+j,0,0,b,0,0,b,0,0,b,0,0,b,0,0,0
+i,z,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+k,k,k,k,k,k,k,k,k,k,k,k,k,p,0,0
+k,k,k,k,k,k,k,k,k,k,k,k,k,o,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,z,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,g,j
+0,0,0,b,0,0,b,0,0,b,0,0,b,0,h,i
+c,0,0,z,0,0,0,0,0,0,0,0,0,0,0,0
+d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+f,0,0,0,0,0,0,0,0,z,z,0,0,0,0,0
 NAME graveyard 3
+EXT 0,8 1 15,8
+EXT 0,9 1 15,9
 PAL 0
+TUNE 3
+
+TIL 10
+00000000
+00000000
+11111111
+11111111
+11111111
+00000000
+00000000
+00000000
+NAME road
+
+TIL 11
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+10010010
+11111111
+NAME sidewalk1
+
+TIL 12
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+01001001
+11111111
+NAME sidewalk2
+
+TIL 13
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+00100100
+11111111
+NAME sidewalk3
 
 TIL b
 00000000
@@ -127,6 +181,7 @@ TIL b
 11111111
 NAME grave
 WAL true
+COL 4
 
 TIL c
 00001000
@@ -310,6 +365,132 @@ TIL q
 00011000
 NAME path 7
 
+TIL r
+01010110
+10011001
+00011111
+00101110
+00001100
+01010100
+10111110
+00011111
+NAME moon1
+COL 5
+
+TIL s
+00111001
+01110001
+10110011
+11111101
+11101111
+10011011
+10111110
+11011000
+NAME moon2
+COL 5
+
+TIL t
+01110000
+11110000
+11100000
+01000000
+11000000
+10000000
+00000000
+00000000
+NAME moon3
+COL 5
+
+TIL u
+11011100
+01101000
+00111000
+00110100
+01010100
+01100100
+10111000
+00101000
+NAME moon4
+COL 5
+
+TIL v
+01111101
+10011011
+10011110
+00101100
+00111000
+11111000
+10111100
+00011111
+NAME moon5
+COL 5
+
+TIL w
+10010100
+10001110
+11001101
+10111111
+11110111
+11001011
+01100010
+00011111
+NAME moon6
+COL 5
+
+TIL x
+00010000
+00010000
+01101100
+00010000
+00010000
+00000000
+00000000
+00000000
+>
+00000000
+00010000
+00101000
+00010000
+00000000
+00000000
+00000000
+00000000
+NAME star
+COL 3
+
+TIL y
+00000000
+00010000
+00101000
+00010000
+00000000
+00000000
+00000000
+00000000
+>
+00010000
+00010000
+01101100
+00010000
+00010000
+00000000
+00000000
+00000000
+NAME star2
+COL 3
+
+TIL z
+00000000
+00000000
+00000000
+00111000
+01111100
+00010000
+00010000
+00000000
+NAME mushroom
+COL 6
+
 SPR A
 00000000
 00111100
@@ -342,6 +523,7 @@ SPR a
 NAME flowers1
 DLG 0
 POS 0 5,6
+COL 3
 
 SPR b
 00000000
@@ -355,6 +537,7 @@ SPR b
 NAME flowers2
 DLG 4
 POS 0 8,13
+COL 3
 
 SPR c
 00000000
@@ -367,7 +550,8 @@ SPR c
 00011100
 NAME flowers3
 DLG 5
-POS 1 7,5
+POS 1 7,6
+COL 3
 
 SPR d
 00000000
@@ -381,6 +565,7 @@ SPR d
 NAME pc grave
 DLG 6
 POS 0 8,5
+COL 5
 
 SPR e
 00000000
@@ -402,7 +587,108 @@ SPR e
 00000000
 NAME grim
 DLG 7
+POS 2 8,10
+COL 4
+
+SPR f
+00000000
+00100010
+01010101
+00101010
+00011100
+00111110
+00111110
+00011100
+NAME flowers4
+DLG 8
+POS 1 2,13
+COL 3
+
+SPR g
+11111111
+10010101
+11111111
+10001001
+11111111
+00011000
+00011000
+00111100
+NAME sign
+DLG 9
+POS 2 3,10
+
+SPR h
+00000000
+00111100
+01000010
+10011001
+10100101
+10011001
+01000010
+00111100
+>
+00000000
+00111100
+01000010
+10100101
+10011001
+10100101
+01000010
+00111100
+NAME portal
+DLG b
 POS 2 8,11
+COL 5
+
+SPR i
+00000000
+00100010
+01010101
+00101010
+00011100
+00111110
+00111110
+00011100
+NAME flowers5
+DLG c
+POS 3 3,6
+COL 3
+
+SPR j
+00011100
+00111110
+01111110
+01011100
+01011000
+00011100
+00111110
+00111110
+>
+00000000
+00011100
+00111110
+01111110
+01011100
+01011000
+00011100
+00111110
+NAME NPC
+DLG d
+POS 3 12,6
+COL 5
+
+SPR k
+11111111
+10010101
+11111111
+10001001
+11111111
+00011000
+00011000
+00111100
+NAME sign2
+DLG e
+POS 1 12,7
 
 ITM 1
 00000000
@@ -416,28 +702,52 @@ ITM 1
 NAME key
 
 DLG 0
-Seems like the family left some flowers.{tune "3"}
+Seems like the family left some flowers for "Summer Smith".{tune "3"}
 NAME flower dialog
 
 DLG 3
-Seems like the family left some flowers.{tune "3"}
-NAME flower dialogue
+Seems like the family left some flowers for "Asher Moffitt".{tune "3"}
+NAME flower4 dialogue
 
 DLG 4
-Seems like the family left some flowers.{tune "3"}
+Seems like the family left some flowers for "Emma Lundquist".{tune "3"}
 NAME flowers2 dialog
 
 DLG 5
-Seems like the family left some flowers.{tune "3"}
+Seems like the family left some flowers for "Emily Martin".{tune "3"}
 NAME flowers3 dialog
 
 DLG 6
-...This grave has my name on it.{tune "3"}
+...This grave has my name on it. {pg}Usually, there's some kind of description, right? {pg}So why does my grave only have the years I was alive...?
 NAME pc grave dialog
 
 DLG 7
-{drws "grim"} "{wvy}Hello, little spirit. Are you ready to go?{/wvy}"{pg}{drws "A"} "Go..? Go where?"{pg}{drws "grim"} "{wvy}The Afterlife, of course. That's where all spirits go after death.{/wvy}"{pg}{drws "A"} "So then it's true? I'm... dead?"{pg}{drws "grim"} "{wvy}I'm afraid so, little spirit.{/wvy}"{pg}{drws "A"} "But how? Why? What happened?"{pg}{drws "grim"} "{wvy}That is up to you to recall, my friend.{/wvy}" {pg}{drws "grim"} "{wvy}As the Grim Reaper, I am only a means to reach the Afterlife.{/wvy}" {pg}{drws "grim"} "{wvy}Come with me. You will regain your memories over time; everyone does.{/wvy}" {pg}I get the feeling that I don't really have a choice but to follow Grim. {pg}Even though I'm unsettled by his words, he exudes a trustworthy and kind demeanor.  {pg}{end}And so, I follow him as we start our walk to the Afterlife.{tune "0"}
+{drws "grim"} "{wvy}Hello, little spirit. Are you ready to go?{/wvy}"{pg}{drws "A"} "Go..? Go where?"{pg}{drws "grim"} "{wvy}The Afterlife, of course. That's where all spirits go after death.{/wvy}"{pg}{drws "A"} "So then it's true? I'm... dead?"{pg}{drws "grim"} "{wvy}I'm afraid so, little spirit.{/wvy}"{pg}{drws "A"} "But how? Why? What happened?"{pg}{drws "grim"} "{wvy}That is up to you to recall, my friend.{/wvy}" {pg}{drws "grim"} "{wvy}As the Grim Reaper, I am only a means to reach the Afterlife.{/wvy}" {pg}{drws "grim"} "{wvy}Come with me. You will regain your memories over time; everyone does.{/wvy}" {pg}Even though I'm unsettled by his words, he exudes a trustworthy and kind demeanor.  {pg}{drws "A"} "Wait, just tell me one thing: did I.. kill someone?"{pg}Grim is silent for a moment. His face is clouded, so I can't tell what he's thinking.{pg}{drws "grim"} "{wvy}Even if you did, it matters not what you did in life, little spirit.{/wvy}" {pg}{drws "grim"} "{wvy}You cannot change the life you have already lived.{/wvy}" {pg}{drws "grim"} "{wvy}All you can do is make the most of your after-life.{/wvy}" {pg}{drws "grim"} "{wvy}After all... who's to say the dead cannot change?{/wvy}" {pg}So then it must be true. I'm a murderer. Was I executed for my crime?{pg}Anxiety brews inside of me. I can't bring myself to ask any more questions.{pg}Grim seemingly senses my unease and gently places his bony hand on my shoulder.{pg}{drws "grim"} "{wvy}I understand this must be difficult to process.{/wvy}" {pg}{drws "grim"} "{wvy}You now have all the time in the world, so even if it is difficult now, it will not always be this way.{/wvy}" {pg}{drws "grim"} "{wvy}And, if you so choose, you do not have to be alone.{/wvy}" {pg}{drws "grim"} "{wvy}The Afterlife is not solitary confinement. You will find others like you.{/wvy}" {pg}Although I'm not sure how I feel about the Afterlife, I know that staying here among the living would be condemning myself to an after-life of misery.{pg}If I can't talk to the living, how will I ever ask for their forgiveness?{pg}Truth be told, I don't deserve forgiveness for what I've done.{pg}So what else is there? I'm dead now. It really can't be worse.{pg}{drws "A"} "Alright... I'll go."{pg}Grim lets go of my shoulder, then gestures to the strange portal on the ground in front of him.{pg}It seems like that's the entrance to the Afterlife. {pg}He waits patiently for me to step through the portal.
 NAME grim dialog
+
+DLG 8
+Seems like the family left some flowers for "Asher Moffitt".
+NAME flowers4 dialog
+
+DLG 9
+Welcome to Old Saint Mary's Cemetery! We're very sorry for your loss.{pg}Please note the visiting hours and rules on our website. {pg}Any after hours visits will be treated as trespassing.
+NAME sign dialog
+
+DLG b
+{end}{tune "0"}When I step into the portal, everything goes black.{pg}{wvy}The End{/wvy}
+NAME ending 1
+
+DLG c
+Seems like the family left some flowers for "Matthew Luciani".
+NAME flowers5 dialog
+
+DLG d
+A woman is sitting in front of someone's grave, talking to it.{pg}{drws "A"} "Um, excuse me, ma'am?"{pg}The woman doesn't acknowledge me whatsoever, continuing her rant.{pg}I try to reach out and gently tap her on the shoulder, but my hand passes through her body.{pg}Startled, I look at my hands. I didn't notice until now, but they're pale and transparent.{pg}I look back up at the woman, who is still ranting passionately. She didn't even feel anything...?{pg}{drws "NPC"} "This place has really gone downhill, you know."{pg}{drws "NPC"} "I mean, they even buried a murderer here yesterday!"{pg}{drws "NPC"} "They should've just buried them at the prison."{pg}{drws "NPC"} "...Do prisons even have cemeteries?"{pg}Uneasiness takes root in my mind.{pg}Is she talking about me...?
+NAME NPC dialog
+
+DLG e
+More Graves →{pg}Exit ↓{pg}{drws "A"} "Maybe if I look around more I can find some clues."
+NAME sign2 dialog
 
 VAR a
 42
@@ -12277,8 +12587,6 @@ CHAR 9835
 011011
 011000
 000000
-</script>
-	</script>
 </script>
 
 </head>
