@@ -11,6 +11,10 @@
     <br>
     <i>Click the itch.io badge to navigate to the game page.</i>
     <br><br>
+    <a href="https://github.com/ninthewanderer/The-Last-Walk-v1.0"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a>
+    <br>
+    <i>Click the GitHub badge to navigate to the v1.0 repository.</i>
+    <br><br>
   </p>
 
 [//]: # (Assignment description)
