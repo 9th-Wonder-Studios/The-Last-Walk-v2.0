@@ -1,4 +1,3 @@
-
   <h1> 
     <p align="center"> 
       Tʜᴇ Lᴀsᴛ Wᴀʟᴋ
@@ -16,10 +15,10 @@
 
 [//]: # (Assignment description)
   <p align="center"> 
-  ──── .✦  <img src="purple_bitsy.png" width="35" height="35">  ✦. ──── <br><br>
+  ──── .✦ <img src="README Assets/purple_bitsy.png" width="35" height="35"> ✦. ──── <br><br>
   This is a short web adventure game made in the <a href="https://www.bitsy.org">Bitsy</a> editor for <br> DIG4715 (Game Production).
     <br><br>
-      <img src="https://img.itch.zone/aW1hZ2UvNDIwNzg4Ni8yNTA3NzMwNS5qcGc=/347x500/lrqk7F.jpg"> 
+      <img src="README Assets/The Last Walk.jpg" width="315" height="250"> 
     <br><br>
 
    <h3>
@@ -46,8 +45,7 @@
     As for difficulties during this project, as you'll notice when playing, the background music cuts off every time the player interacts with an interactable object. It also doesn't stop playing after the game ends. <br>
     I tried fixing both of these issues by modifying the code and dialog feature respectively, but regardless of my attempts it refused to save my changes.
   </p>  
-    <br>
- 
-  <p align="center"> 
-    ──── .✦  <img src="purple_bitsy.png" width="35" height="35">  ✦. ────
-  </p>
+    <br><br>
+    <p align="center">
+        <img src="README Assets/TLW Screenshot 1.jpg" width="461" height="460"> 
+    </p>
